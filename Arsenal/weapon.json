@@ -1,4 +1,5 @@
 {
-   " Name" : "Goomba",
-    "Hp" : 1
+    "DamageMin": 5,
+    "DamageMax": 100,
+    "Name": "Chainsaw"
 }
