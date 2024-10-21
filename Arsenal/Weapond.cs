@@ -7,9 +7,11 @@ public class Weapon
     [JsonIncludeAttribute]
     public int DamageMax;
     [JsonIncludeAttribute]
+    public int Damage;
+    [JsonIncludeAttribute]
     public string Name;
 
     public int Attack(){
-        return DamageMax;
+        return Random.Shared.Next(DamageMin, DamageMax);
     }
 }
