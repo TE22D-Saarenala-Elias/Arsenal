@@ -1,9 +1,4 @@
 ﻿using System.Text.Json;
-// Weapon weapon = new Weapon(){
-//     Name = "Sword",
-//     DamageMax = 10,
-//     DamageMin = 1
-// };
 
 
 string Weapon = File.ReadAllText("weapon.json");
